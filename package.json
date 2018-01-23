@@ -62,7 +62,7 @@
     "url-loader": "^0.5.7",
     "webpack": "^3.8.1",
     "webpack-dev-server": "^2.9.2",
-    "yargs": "^8.0.1"
+    "yargs": "^11.0.0"
   },
   "scripts": {
     "start": "bash ./node_modules/terriajs-server/run_server.sh --config-file devserverconfig.json",
