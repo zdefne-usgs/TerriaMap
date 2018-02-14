@@ -103,7 +103,8 @@ terria.start({
         var australiaBaseMaps = createAustraliaBaseMapOptions(terria);
         var globalBaseMaps = createGlobalBaseMapOptions(terria, configuration.bingMapsKey);
 
-        var allBaseMaps = australiaBaseMaps.concat(globalBaseMaps);
+        //var allBaseMaps = australiaBaseMaps.concat(globalBaseMaps);
+        var allBaseMaps = globalBaseMaps;
         selectBaseMap(terria, allBaseMaps, 'Bing Maps Aerial with Labels', true);
 
         // Show a modal disclaimer before user can do anything else.
