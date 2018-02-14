@@ -4,11 +4,8 @@ import version from '../../version';
 
 import StandardUserInterface from 'terriajs/lib/ReactViews/StandardUserInterface/StandardUserInterface.jsx';
 import MenuItem from 'terriajs/lib/ReactViews/StandardUserInterface/customizable/MenuItem';
-import RelatedMaps from './RelatedMaps';
 import { Menu, Nav, ExperimentalMenu } from 'terriajs/lib/ReactViews/StandardUserInterface/customizable/Groups';
-import SplitPoint from 'terriajs/lib/ReactViews/SplitPoint';
 import MeasureTool from 'terriajs/lib/ReactViews/Map/Navigation/MeasureTool';
-
 import './global.scss';
 
 function loadAugmentedVirtuality(callback) {
@@ -26,17 +23,11 @@ export default function UserInterface(props) {
     return (
         <StandardUserInterface {... props} version={version}>
             <Menu>
-                <RelatedMaps viewState={props.viewState} />
-                <MenuItem caption="About" href="about.html" key="about-link"/>
+                <MenuItem caption="About" href="https://www.usgs.gov" key="about-link"/>
             </Menu>
             <Nav>
                 <MeasureTool terria={props.viewState.terria} key="measure-tool"/>
             </Nav>
-            <ExperimentalMenu>
-                <If condition={isBrowserSupportedAV()}>
-                    <SplitPoint loadComponent={loadAugmentedVirtuality} viewState={props.viewState} terria={props.viewState.terria} experimentalWarning={true}/>
-                </If>
-            </ExperimentalMenu>
         </StandardUserInterface>
     );
 }
