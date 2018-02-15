@@ -21,7 +21,8 @@ body {
     //@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700);
 
     html {
-        font-family: $font-base;
+    //    font-family: $font-base;
+        font-family: monospace;
     }
 
     // Logo area in top left
@@ -42,7 +43,7 @@ body {
 
         // To make the logo clickable, it should be instead set in config.json, at "brandBarElements"
         // background:$dark url(http://www.public-domain-image.com/backgrounds/slides/abstract-waves-on-a-blue-background.jpg);
-           background-position: top justify;
+        // background-position: top right;
         // background-size: 100%;
         // background-repeat: no-repeat;
 
@@ -53,16 +54,18 @@ body {
     }
     // Individual sections within the left panel
     .tjs-side-panel__workBench {
-        font-family:$font-base;
+    //    font-family:$font-base;
+        font-family:monospace;
         font-weight:400;
-        font-size:16px;
+        font-size:14px;
         background:$dark-darker;
     }
 
     // All kinds of buttons in various screens
     .tjs-_buttons__btn {
         &-primary { 
-            font-family: $font-base; 
+        //    font-family: $font-base; 
+            font-family: monospace; 
         }
         &:hover { 
             color: $color-primary;             
@@ -96,7 +99,8 @@ body {
     }
 
     .tjs-timeline__text-cell {
-        font-family: $font-base; 
+     //   font-family: $font-base; 
+        font-family: monospace; 
     }
 
     .tjs-timeline__timeline {
