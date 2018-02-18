@@ -43,6 +43,7 @@ body {
         // To make the logo clickable, it should be instead set in config.json, at "brandBarElements"
         // background:$dark url(http://www.public-domain-image.com/backgrounds/slides/abstract-waves-on-a-blue-background.jpg);
         // background-position: top right;
+        background-position: middle left;
         // background-size: 100%;
         // background-repeat: no-repeat;
 
@@ -58,6 +59,7 @@ body {
         font-weight:400;
         font-size:14px;
         background:$dark-darker;
+        line-height: 125%;
     }
 
     // All kinds of buttons in various screens
