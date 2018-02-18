@@ -16,19 +16,18 @@ body {
 
     // To customise the look of your Terria Map, uncomment this section and make changes to your heart's content
     // You will also want to uncomment and change values in lib/Styles/variables.scss
+    /*
     // Import any custom fonts here
     //@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700);
 
-    /*
     html {
-    //    font-family: $font-base;
-        font-family: monospace;
+        font-family: $font-base;
     }
 
     // Logo area in top left
     .tjs-branding__branding {
         a:first-child, a:last-child {
-            display: inline-block;
+            display: none;
 
             @media screen and (min-width: $sm) {
                 display: inline;
@@ -44,7 +43,6 @@ body {
         // To make the logo clickable, it should be instead set in config.json, at "brandBarElements"
         // background:$dark url(http://www.public-domain-image.com/backgrounds/slides/abstract-waves-on-a-blue-background.jpg);
         // background-position: top right;
-        background-position: middle left;
         // background-size: 100%;
         // background-repeat: no-repeat;
 
@@ -55,20 +53,16 @@ body {
     }
     // Individual sections within the left panel
     .tjs-side-panel__workBench {
-    //    font-family:$font-base;
-        font-family:monospace;
-        font-weight:normal;
-        font-size:16px;
+        font-family:$font-base;
+        font-weight:400;
+        font-size:18px;
         background:$dark-darker;
-        "padding-top": "1px";
-        "padding-bottom": "1px",
     }
 
     // All kinds of buttons in various screens
     .tjs-_buttons__btn {
         &-primary { 
-        //    font-family: $font-base; 
-            font-family: monospace; 
+            font-family: $font-base; 
         }
         &:hover { 
             color: $color-primary;             
@@ -97,17 +91,16 @@ body {
 
     // Flatten and simplify display of timeline controls
     .tjs-timeline-controls__timeline__control {
-        background:$$dark-with-overlay;
+        background:$dark-lighter;
         border:none;
     }
 
     .tjs-timeline__text-cell {
-     //   font-family: $font-base; 
-        font-family: monospace; 
+        font-family: $font-base; 
     }
 
     .tjs-timeline__timeline {
-        background:$$dark-with-overlay;
+        background:$dark-lighter;
     }
 
     .cesium-timeline-bar {
@@ -159,5 +152,5 @@ body {
         color:$color-secondary;
     }
     */
-    
+
 }
