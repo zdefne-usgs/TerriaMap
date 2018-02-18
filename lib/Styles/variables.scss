@@ -7,7 +7,7 @@
 
 // If using a non-standard font, remember to include an @import statement in global.scss
 //$font-base: 'Josefin Sans', sans-serif; 
-$font-base: 'Arial'; 
+$font-base: monospace; 
 //$font-pop: $font-base; // If you just want to use one font throughout, do this.
 $font-pop: monospace; // If you just want to use one font throughout, do this.
 
@@ -15,7 +15,7 @@ $font-pop: monospace; // If you just want to use one font throughout, do this.
 // "color-secondary" should be a lighter color than "color-primary" but still readable contrasted with white.
 $color-primary: hsl(200,50%,50%);
 //$color-secondary: hsl(0,0%,100%); // or: lighten($color-primary, 20%);
-$color-secondary: lighten($color-primary, 20%);
+$color-secondary: lighten($color-primary, 60%);
 
 // These variables set background panel colors
 $dark: hsl(0,0%,20%);
