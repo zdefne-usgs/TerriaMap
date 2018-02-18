@@ -59,7 +59,8 @@ body {
         font-weight:normal;
         font-size:16px;
         background:$dark-darker;
-        line-height:1px;
+        "padding-top": "1px";
+        "padding-bottom": "1px",
     }
 
     // All kinds of buttons in various screens
