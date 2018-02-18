@@ -96,7 +96,7 @@ body {
 
     // Flatten and simplify display of timeline controls
     .tjs-timeline-controls__timeline__control {
-        background:$dark-lighter;
+        background:$$dark-with-overlay;
         border:none;
     }
 
@@ -106,7 +106,7 @@ body {
     }
 
     .tjs-timeline__timeline {
-        background:$dark-lighter;
+        background:$$dark-with-overlay;
     }
 
     .cesium-timeline-bar {
