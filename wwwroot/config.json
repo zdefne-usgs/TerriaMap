@@ -45,7 +45,8 @@
         // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
         brandBarElements: [
             "",
-            "<a target=\"_blank\" href=\"http://www.nicta.com.au\"><img src=\"images/terria_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
+       //     "<a target=\"_blank\" href=\"http://www.nicta.com.au\"><img src=\"images/terria_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
+            "<a target=\"_blank\" href=\"https://www.usgs.gov/\"><img vertical-align=\"middle\"  src=\"https://github.com/zdefne-usgs/TerriaMap/blob/master/wwwroot/images/USGS_brand_logo.png?raw=true\" style=\"height:42;border:0\" title=\"U.S. Geological Survey\" /></a>",
             ""
         ],
         // Shown when things go wrong.
