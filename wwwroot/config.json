@@ -1,6 +1,6 @@
 {
     initializationUrls: [
-        "terria",
+        "usgs",
     ],
     parameters: {
         disableSplitter: false,
