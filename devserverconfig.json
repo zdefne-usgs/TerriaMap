@@ -2,8 +2,15 @@
     "port": 3001,
 
     "allowProxyFor" : [
+        "gov",
+        "geocommunicator.gov",
+        "arcgisonline.com",
+        "githubusercontent.com",
+        "esri.com",
         "nicta.com.au",
         "gov.au",
+        "gov.uk",
+        "gov.nz"
         "csiro.au",
         "arcgis.com",
         "argo.jcommops.org",
@@ -16,11 +23,7 @@
         "geoserver-123.aodn.org.au",
         "geoserver.imos.org.au",
         "nci.org.au",
-        "static.nationalmap.nicta.com.au",
-        "githubusercontent.com",
-        "gov",
-        "gov.uk",
-        "gov.nz"
+        "static.nationalmap.nicta.com.au"
     ]
 }
 
