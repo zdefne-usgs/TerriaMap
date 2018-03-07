@@ -3,10 +3,17 @@
 
     "allowProxyFor" : [
         "gov",
+        "gov",
+        "org",
+        "edu",
+        "us",
         "geocommunicator.gov",
         "arcgisonline.com",
         "githubusercontent.com",
         "esri.com",
+        "axiomalaska.com",
+        "axds.co",
+        "ingv.it",
         "nicta.com.au",
         "gov.au",
         "gov.uk",
