@@ -24,7 +24,7 @@
             //prodHostRegex: ".\\.gov$",
             //devHostRegex: "\\b(staging|preview|test|dev)\\.",
            //enableOnLocalhost: false // If false, don't show this when running on localhost
-        },  
+        //},  
         developerAttribution: {
             text: "U.S. Geological Survey",
             link: "http://www.usgs.gov"
