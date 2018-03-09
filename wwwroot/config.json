@@ -29,7 +29,7 @@
             text: "U.S. Geological Survey",
             link: "http://www.usgs.gov"
         },
-        appName: "USGS",
+        appName: "USGS Terria Map",
         brandBarElements: [
             "<table cellspacing=\"20\"><tr><td style=\"padding-right:18px\"> <a target=\"_blank\" href=\"https://www.usgs.gov/\"><img vertical-align=\"middle\"  src=\"https://github.com/zdefne-usgs/TerriaMap/blob/master/wwwroot/images/USGS_brand_logo.png?raw=true\" style=\"height:42;border:0\" title=\"U.S. Geological Survey\" /></a></td><td style=\"padding-right:18px\"> <a target=\"_blank\" href=\"http://www.terria.io//\"><img vertical-align=\"top\"  src=\"https://github.com/zdefne-usgs/TerriaMap/blob/master/wwwroot/images/branding.png?raw=true\" style=\"height:42;width:70;border:0;\" title=\"Terria\" /></a></td></tr></table>"
         ],
