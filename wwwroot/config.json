@@ -10,10 +10,10 @@
         googleAnalyticsKey: null,
         googleAnalyticsOptions: null,
         disclaimer: {
-            text: "Disclaimer: The suggestions and illustrations included in this map are intended to support scientific research; however, they do not guarantee the safety of an individual or structure. The contributors and sponsors of this product do not assume liability for any injury, death, property damage, or other effects because of using this map. This map must not be used for navigation or precise spatial analysis. ",
+            text: "Disclaimer: The suggestions and illustrations included in this map are intended to support scientific research; however, they do not guarantee the safety of an individual or structure. The contributors and sponsors of this product do not assume liability for any injury, death, property damage, or other effects because of using this map. This map must not be used for navigation or precise spatial analysis. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government. Powered by TerriaJS. https://terria.io/ ",
         },   
         printDisclaimer:{
-            text: "Disclaimer: The suggestions and illustrations included in this map are intended to support scientific research; however, they do not guarantee the safety of an individual or structure. The contributors and sponsors of this product do not assume liability for any injury, death, property damage, or other effects because of using this map. This map must not be used for navigation or precise spatial analysis. ",
+            text: "Disclaimer: The suggestions and illustrations included in this map are intended to support scientific research; however, they do not guarantee the safety of an individual or structure. The contributors and sponsors of this product do not assume liability for any injury, death, property damage, or other effects because of using this map. This map must not be used for navigation or precise spatial analysis. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government. Powered by TerriaJS. https://terria.io/ ",
         },
         //globalDisclaimer: {
             //confirmationRequired: false,
