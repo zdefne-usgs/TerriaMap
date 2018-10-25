@@ -12,7 +12,7 @@
     "url": "http://github.com/TerriaJS/TerriaMap"
   },
   "dependencies": {
-    "terriajs-server": "git://github.com/zdefne-usgs/terriajs-server"
+    "terriajs-server": "git://github.com/sealevelchange/terriajs-server"
   },
   "config": {
     "awsProfile": "terria",
@@ -54,7 +54,7 @@
     "semver": "^5.0.0",
     "style-loader": "^0.19.1",
     "svg-sprite-loader": "^3.4.0",
-    "terriajs": "git://github.com/zdefne-usgs/terriajs",
+    "terriajs": "git://github.com/sealevelchange/terriajs",
     "terriajs-catalog-editor": "^0.2.0",
     "terriajs-cesium": "1.41.1",
     "terriajs-schema": "latest",
